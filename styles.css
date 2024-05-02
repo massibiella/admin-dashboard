@@ -152,10 +152,18 @@ body {
 
 .card h4 {
     margin: 2rem 1rem;
+    margin-bottom: 1rem;
 }
 
 .card p {
     margin: 0 1rem;
+}
+
+.card > p,
+.ann-text > p,
+.tren-text {
+    color: rgb(99, 99, 99);
+    font-size: 0.90rem;
 }
 
 .card-icons {
@@ -246,6 +254,5 @@ body {
 }
 
 .tren-text > span {
-    color: rgb(99, 99, 99);
     font-size: 0.9rem;
 }
